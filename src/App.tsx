@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import UserForm from './components/UserForm/UserForm';
-import Users from './components/Users/Users';
+import Users from './components/Userdata/Users/Users';
 
 interface User {
     id: number;

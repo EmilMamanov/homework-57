@@ -1,6 +1,6 @@
 import React from 'react';
-import { User } from '../../types';
-import UserItem from '../UserItem/UserItem';
+import { User } from '../../../types';
+import UserItem from '../UserItem/UserItem.tsx';
 
 interface UsersProps {
     users: User[];

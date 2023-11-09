@@ -12,7 +12,7 @@ interface UserItemProps {
     user: User;
 }
 
-const defaultImage = '';
+const defaultImage = 'https://as2.ftcdn.net/v2/jpg/03/31/69/91/1000_F_331699188_lRpvqxO5QRtwOM05gR50ImaaJgBx68vi.jpg';
 
 const UserItem: React.FC<UserItemProps> = ({ user }) => {
     return (
@@ -22,7 +22,7 @@ const UserItem: React.FC<UserItemProps> = ({ user }) => {
                     src={user.image || defaultImage}
                     alt="User Image"
                     className="img-fluid"
-                    style={{ maxHeight: '200px' }}
+                    style={{ maxHeight: '300px' }}
                 />
                 <h5 className="card-title">{user.name}</h5>
                 <p className="card-text">
