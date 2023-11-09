@@ -4,4 +4,5 @@ export interface User {
     email: string;
     active: boolean;
     role: string;
+    image: string;
 }
